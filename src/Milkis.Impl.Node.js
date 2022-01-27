@@ -1,1 +1,2 @@
-exports.nodeFetch = require("node-fetch").default;
+import nodeFetch_ from 'node-fetch';
+export const nodeFetch = nodeFetch_;
